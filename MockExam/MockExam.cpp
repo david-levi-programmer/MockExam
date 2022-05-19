@@ -13,7 +13,7 @@ int main()
     std::cout << "Let's see if your word fits that criteria, shall we?" << std::endl;
     system("PAUSE");
     //for (auto it = word[0]; it != word.end();)
-    if (word.begin() == word.end())
+    if (word.front() == word.back())
     {
         std::cout << "Yes! This word is a palindrome." << std::endl;
     }
